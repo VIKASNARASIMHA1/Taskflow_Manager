@@ -141,15 +141,17 @@ VITE_API_URL=http://localhost:5000/api
 
 **Backend**: * Build Command: npm install && npx prisma generate
 
-  **Start Command**: npm start
+  - **Start Command**: npm start
 
-  **Env**: Set DATABASE_URL and JWT_SECRET.
+  - **Env**: Set DATABASE_URL and JWT_SECRET.
 
 **Frontend**: * Build Command: npm install && npm run build
 
-  **Publish Directory**: dist
+  - **Publish Directory**: dist
 
-  **Env**: Set VITE_API_URL to your backend URL.
+  - **Env**: Set VITE_API_URL to your backend URL.
+
+---
 
 **Author** - Vikas Narasimha
 
