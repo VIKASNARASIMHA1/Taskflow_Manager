@@ -67,6 +67,7 @@ A modern, full-stack task management application built with React, Node.js, and 
    ```bash
    docker-compose up --build
    ```
+---
 
 ## Project Structure
 
@@ -94,6 +95,7 @@ taskflow-manager/
 ├── docker-compose.yml
 └── README.md
 ```
+---
 
 ## Environment Variables
 
@@ -111,6 +113,7 @@ NODE_ENV=development
 ```Plaintext
 VITE_API_URL=http://localhost:5000/api
 ```
+---
 
 ### 📖 API Documentation
 
@@ -130,6 +133,8 @@ VITE_API_URL=http://localhost:5000/api
 | **PUT** | `/api/tasks/:id` | Update task | ✅ |
 | **DELETE** | `/api/tasks/:id` | Delete task | ✅ |
 
+---
+
 ## 🚀 Deployment (Render)
 
 **Database**: Create a PostgreSQL instance on Render and copy the internal URL.
@@ -147,3 +152,5 @@ VITE_API_URL=http://localhost:5000/api
   **Env**: Set VITE_API_URL to your backend URL.
 
 **Author** - Vikas Narasimha
+
+---
